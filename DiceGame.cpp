@@ -1,8 +1,14 @@
 #include <iostream>
+#include <string>
 using namespace std;
 #define rep(i,a,b) for(int i=a;i<b;i++)
 
 int main() {
+    string name;
+    cout << "What is your name?" << endl;
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;
+    
     cout << "Roing dice..." << endl;
     int n;
     n = 2;
